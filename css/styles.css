@@ -34,7 +34,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: rgb(83, 97, 87);
-  --bs-secondary: hwb(145 19% 43%);
+  --bs-secondary: #338753;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -4000,7 +4000,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #31724e;
+  background-color: #309159;
 }
 
 .nav-fill > .nav-link,
@@ -11294,7 +11294,7 @@ html {
 
 .page-section {
   padding: 6rem 0;
-  height:100vh;
+
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -11376,7 +11376,7 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
+  color: #309159;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11398,11 +11398,11 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #1abc9c;
+    background:#309159;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: #309159;
   }
 
   #mainNav.navbar-shrink {
@@ -11514,4 +11514,32 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+
+.about-avatar-icon {
+  border-radius: 50%;
+  margin-bottom: 1em;
+  transition: filter .3s ease-in-out;
+}
+
+.about-avatar-name {
+
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.about-avatar-container {
+  padding: 20px 60px;
+}
+
+.last-grove-title-container{
+  padding: 20px 60px;
+  background-color: #f8f9fa;
+  align-content: center;
+}
+
+.last-grove-logo{
+  align-content: center;
 }
