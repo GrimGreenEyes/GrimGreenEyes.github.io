@@ -11432,9 +11432,10 @@ html {
 }
 
 .masthead {
-  padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
+  
+ 
   height: 100vh;
+  overflow: hidden;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
@@ -11445,18 +11446,24 @@ html {
   
 }
 .masthead .masthead-avatar {
-  
-  width: 45rem;
+
+  width: 55rem;
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+z-index: 100;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .masthead .masthead-content {
   
   position:absolute;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 100%) {
   .masthead {
-    padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
     font-size: 4rem;
@@ -11540,6 +11547,29 @@ html {
   align-content: center;
 }
 
-.last-grove-logo{
-  align-content: center;
+.masthead-image {
+  width: 100%;
+  min-width: 1000px;
+  left: 50%;
+  background-repeat: repeat;
+  
+}
+.masthead-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99.5%;
+  z-index: 50;
+  background: rgba(255,255,255,.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-text{
+font-size: 24px;
+padding-right: 10%;
+padding-left: 10%;
+text-shadow: 2px 2px 0 #fff,3px 2px 0 #fff;
 }
