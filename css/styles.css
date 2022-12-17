@@ -11432,7 +11432,8 @@ html {
 }
 
 .masthead {
-
+  
+ 
   height: 100vh;
   overflow: hidden;
 }
@@ -11547,11 +11548,7 @@ align-items: center;
 }
 
 .masthead-image {
-  
  height: 100vh;
-  
-
-
   
 }
 .masthead-background {
@@ -11572,4 +11569,49 @@ font-size: 24px;
 padding-right: 10%;
 padding-left: 10%;
 text-shadow: 2px 2px 0 #fff,3px 2px 0 #fff;
+}
+
+.last-grove-image{
+  box-shadow: 3px 3px 4px 3px rgba(0,0,0,.2);
+  border-radius: 1%;
+}
+
+.last-grove-play-button-image{
+  max-width: 40%;
+  height: auto;
+  z-index: 20;
+  box-shadow: 3px 3px 4px 3px rgba(0,0,0,.2);
+  border-radius: 2%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color:#101214;
+}
+
+.last-grove-play-button-image:hover{
+  max-width: 45%;
+  height: auto;
+  z-index: 20;
+  box-shadow: 3px 3px 4px 3px rgba(0,0,0,.3);
+  border-radius: 2%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: #191c1f;
+  
+}
+.last-grove-play-button-image:active {
+  max-width: 45%;
+  height: auto;
+  z-index: 20;
+  box-shadow: 3px 3px 4px 3px rgba(0,0,0,.3);
+  border-radius: 2%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: #2c3e50;
+  
+}
+
+.last-grove-play-button{
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
